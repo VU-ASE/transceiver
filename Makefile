@@ -6,7 +6,7 @@ BINARY_NAME=transceiver
 
 lint:
 	@echo "Lint check..."
-	@GOFLAGS="-buildvcs=false" golangci-lint run
+	@GOFLAGS="-buildvcs=false" golangci-lint run  --timeout=5m
 	@echo "Lint complete"
 
 build: lint
