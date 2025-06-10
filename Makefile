@@ -9,7 +9,7 @@ lint:
 	@GOFLAGS="-buildvcs=false" golangci-lint run  --timeout=5m
 	@echo "Lint complete"
 
-build: lint
+build:
 	@echo "building ${BINARY_NAME}"
 	@cd src/ && go build -o "../$(BUILD_DIR)${BINARY_NAME}" ${buildargs}
 
