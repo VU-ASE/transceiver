@@ -1,5 +1,25 @@
 # Changelog
 
+## [2.0.0](https://github.com/VU-ASE/transceiver/compare/v1.2.0...v2.0.0) (2025-07-31)
+
+
+### ⚠ BREAKING CHANGES
+
+* update to rovercom v2
+
+### Features
+
+* added pr event trigger for build action ([8b3ef52](https://github.com/VU-ASE/transceiver/commit/8b3ef52797b45768a7d4e424021582ed859dd699))
+* update rovercom to v2 ([88ad799](https://github.com/VU-ASE/transceiver/commit/88ad7991b8a2f668408ba983995dd2d7cc5c839d))
+* update to rovercom v2 ([4d0bf30](https://github.com/VU-ASE/transceiver/commit/4d0bf309b5ca289a349c1d0f4d26282308f844dc))
+
+
+### Bug Fixes
+
+* added buildvcs=false ([1f3fbb4](https://github.com/VU-ASE/transceiver/commit/1f3fbb409890d7aab664f65ad801459a607895a9))
+* added specific pr event triggers ([0c7cac8](https://github.com/VU-ASE/transceiver/commit/0c7cac832f1e522f6cf5da4bfbcb8a48032d69db))
+* removing this because for some reason it works when make test but not when make build ([b135201](https://github.com/VU-ASE/transceiver/commit/b135201ec728d95f4bbece6d95fc26bc938c27a6))
+
 ## [1.2.0](https://github.com/VU-ASE/transceiver/compare/v1.1.0...v1.2.0) (2025-03-13)
 
 
