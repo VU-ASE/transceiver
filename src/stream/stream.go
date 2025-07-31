@@ -6,7 +6,7 @@ import (
 
 	pb_debug "github.com/VU-ASE/rovercom/packages/go/debug"
 
-	roverlib "github.com/VU-ASE/roverlib-go/src"
+	roverlib "github.com/VU-ASE/roverlib-go/v2/src"
 	rtc "github.com/VU-ASE/roverrtc/src"
 	zmq "github.com/pebbe/zmq4"
 	"github.com/rs/zerolog/log"
