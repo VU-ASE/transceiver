@@ -4,7 +4,7 @@ import (
 	"os"
 	"vu/ase/transceiver/src/state"
 
-	pb_tuning "github.com/VU-ASE/rovercom/packages/go/tuning"
+	pb_tuning "github.com/VU-ASE/rovercom/v2/packages/go/tuning"
 	rtc "github.com/VU-ASE/roverrtc/src"
 	"github.com/pion/webrtc/v4"
 	"google.golang.org/protobuf/proto"
