@@ -1,5 +1,3 @@
-github.com/VU-ASE/rovercom v1.5.1 h1:2lbaZ0ZS1AC8XamyBzCKAsvKX7JFiTibS/fdWdKRwtU=
-github.com/VU-ASE/rovercom v1.5.1/go.mod h1:1T9bXpOPMMkubm6YBa847vseBRALFzq8lkDx96w0Hr8=
 github.com/VU-ASE/rovercom/v2 v2.0.0 h1:2LUExP8Utji7ynEOxZfG7MEdwXcqIh3E19sf8QDj2f4=
 github.com/VU-ASE/rovercom/v2 v2.0.0/go.mod h1:ON3KbCs65HXqBfyWLTOggBrBvX/iU8YV39UlnbV34n0=
 github.com/VU-ASE/roverlib-go/v2 v2.0.0 h1:5jzXskTixq1kCm35GgnyFczzXVZfHVyIiWYr4Wn1Bf8=
