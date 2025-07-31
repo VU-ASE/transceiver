@@ -1,7 +1,7 @@
 package state
 
 import (
-	roverlib "github.com/VU-ASE/roverlib-go/src"
+	roverlib "github.com/VU-ASE/roverlib-go/v2/src"
 	"github.com/pion/webrtc/v4"
 )
 

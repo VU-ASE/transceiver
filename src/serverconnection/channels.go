@@ -3,8 +3,8 @@ package serverconnection
 import (
 	"vu/ase/transceiver/src/state"
 
-	pb_control "github.com/VU-ASE/rovercom/packages/go/control"
-	pb_tuning "github.com/VU-ASE/rovercom/packages/go/tuning"
+	pb_control "github.com/VU-ASE/rovercom/v2/packages/go/control"
+	pb_tuning "github.com/VU-ASE/rovercom/v2/packages/go/tuning"
 	"google.golang.org/protobuf/proto"
 
 	"github.com/pion/webrtc/v4"

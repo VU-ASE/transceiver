@@ -7,7 +7,7 @@ import (
 	"vu/ase/transceiver/src/state"
 	"vu/ase/transceiver/src/stream"
 
-	roverlib "github.com/VU-ASE/roverlib-go/src"
+	roverlib "github.com/VU-ASE/roverlib-go/v2/src"
 	rtc "github.com/VU-ASE/roverrtc/src"
 	"github.com/pion/webrtc/v4"
 
