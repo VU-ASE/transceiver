@@ -98,6 +98,7 @@ func New(state *state.AppState) (*rtc.RTC, error) {
 	}
 	resp, err := http.Post(fmt.Sprintf("%s/car/sdp", state.ServerAddress), "application/json; charset=utf-8", bytes.NewReader(payload)) // nolint:noctx
 	if err != nil {
+		err = fmt.Errorf("%w. Try to turn off your firewall.", err)
 		return nil, err
 	}
 
